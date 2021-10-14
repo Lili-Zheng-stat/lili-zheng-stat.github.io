@@ -24,11 +24,15 @@ Papers:
 - [https://arxiv.org/abs/2003.07429 Context-dependent self-exciting point processes: models, methods, and risk bounds in high dimensions] \n
 *Lili Zheng*, Garvesh Raskutti, Rebecca Willett, Benjamin Mark \n
 /Journal of Machine Learning Research. 2021/ \[[pre/context-dependent-slides Slides]\]\[[https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models Code]\] \n
-[img{400}{500}{alt text} fig/context-dependent-synthetic.png]
+In this work, we propose two autoregressive models with corresponding methods and theory for learning 
+context-dependent networks that reflect how features associated with an event (such as the content of a social media post) modulate the strength of influences among nodes. The multinomial approach we propose is suited to categorical marks and while the logistic-normal approach is suited to marks with mixed membership in different categories; a mixture approach is also proposed to combine the merits of both methods. The following figure provides a comparison among the three approaches. \n
+[img{450}{560}{alt text} fig/context-dependent-synthetic.png]
 - [https://projecteuclid.org/euclid.ejs/1576119708 Testing for high-dimensional network parameters in auto-regressive models] \n
 *Lili Zheng*, Garvesh Raskutti \n
 /Electronic Journal of Statistics. 2019/ \[[https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models Code]\] \n
-[img{300}{500}{alt text} fig/hptest-chicago.png]
+Below is an example of the hypothesis testing results of our method on Chicago crime data, where the goal is to test which community's past crimes has significant influence upon another community's future crimes. All communities involved in significant edges are colored, showing geographical approximity.\n
+
+[img{300}{400}{alt text} fig/hptest-chicago.png]
 
 
 == Theoretical Analysis for Stochastic Algorithms

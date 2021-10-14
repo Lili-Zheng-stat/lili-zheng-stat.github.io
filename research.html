@@ -41,14 +41,17 @@ need to developed. I am actively working on this direction and happy to collabor
 <li><p><a href="https://arxiv.org/abs/2003.07429">Context-dependent self-exciting point processes: models, methods, and risk bounds in high dimensions</a> <br />
 <b>Lili Zheng</b>, Garvesh Raskutti, Rebecca Willett, Benjamin Mark <br />
 <i>Journal of Machine Learning Research. 2021</i> [<a href="pre/context-dependent-slides">Slides</a>][<a href="https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models">Code</a>] <br />
-<img src="fig/context-dependent-synthetic.png" width="400px" height="500px" alt="alt text" /></p>
+In this work, we propose two autoregressive models with corresponding methods and theory for learning 
+context-dependent networks that reflect how features associated with an event (such as the content of a social media post) modulate the strength of influences among nodes. The multinomial approach we propose is suited to categorical marks and while the logistic-normal approach is suited to marks with mixed membership in different categories; a mixture approach is also proposed to combine the merits of both methods. The following figure provides a comparison among the three approaches. <br />
+<img src="fig/context-dependent-synthetic.png" width="450px" height="560px" alt="alt text" /></p>
 </li>
 <li><p><a href="https://projecteuclid.org/euclid.ejs/1576119708">Testing for high-dimensional network parameters in auto-regressive models</a> <br />
 <b>Lili Zheng</b>, Garvesh Raskutti <br />
 <i>Electronic Journal of Statistics. 2019</i> [<a href="https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models">Code</a>] <br />
-<img src="fig/hptest-chicago.png" width="300px" height="500px" alt="alt text" /></p>
+Below is an example of the hypothesis testing results of our method on Chicago crime data, where the goal is to test which community's past crimes has significant influence upon another community's future crimes. All communities involved in significant edges are colored, showing geographical approximity.<br /></p>
 </li>
 </ul>
+<p><img src="fig/hptest-chicago.png" width="300px" height="400px" alt="alt text" /></p>
 <h2>Theoretical Analysis for Stochastic Algorithms</h2>
 <p>Stochastic algorithms largely improve the computational efficiency of modern machine learning problems with large data sets. However, much of the established application and theory of stochastic algorithms focus on the case when the loss function is a sum of losses evaluated at each data point, suited for independent samples. <b>When there exists strong correlations among samples (e.g., samples generated from Gaussian processes), can we still apply stochastic gradient descent with convergence guarantees?</b> We investigate this question in the context of learning hyperparameters in Gaussian processes (GPs) and discover a surprisingly positive finding, opening a new, previously unexplored data size regime for GPs.</p>
 <p>Papers:</p>
@@ -61,6 +64,7 @@ Hao Chen*, <b>Lili Zheng</b>*, Raed Al Kontar, Garvesh Raskutti (*: equal contri
 <h2>Tensor Data Analysis</h2>
 <p>Tensor data has attracted wide interest in recent years since it contains valuable high-order information,
 while its high-dimensionality imposes numerous statistical and computational challenges. One of my research interest is to develop <b>efficient algirithms for solving tenesor problems with strong statistical guarantees</b>. </p>
+<p>Papers:</p>
 <ul>
 <li><p><a href="https://arxiv.org/abs/2010.02482">Optimal High-order Tensor SVD via Tensor-Train Orthogonal Iteration</a> <br />
 Yuchen Zhou, Anru R. Zhang, <b>Lili Zheng</b>, Yazhen Wang <br />
@@ -69,7 +73,7 @@ Yuchen Zhou, Anru R. Zhang, <b>Lili Zheng</b>, Yazhen Wang <br />
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-10-14 12:55:07 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2021-10-14 14:46:29 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
