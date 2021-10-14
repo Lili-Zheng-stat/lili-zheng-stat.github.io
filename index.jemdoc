@@ -16,23 +16,27 @@ E-mail: lz67 \[AT\] rice \[DOT\] edu
 [CV/CV_Lili_Zheng.pdf CV]
 ~~~
 
-
 == Publications
+- Learning Gaussian Graphical Models with Differing Pairwise Sample Sizes \n
+*Lili Zheng*, Genevera Allen \n
+/Submitted/
+
 - [https://papers.nips.cc/paper/2020/file/1cb524b5a3f3f82be4a7d954063c07e2-Paper.pdf Stochastic Gradient Descent in Correlated Settings: A Study on Gaussian Processes] \n
 Hao Chen\*, *Lili Zheng*\*, Raed Al Kontar, Garvesh Raskutti (\*: equal contribution)\n
 /Accepted in part to Neural Information Processing Systems (NeurIPS). 2020/ \[[pre/SGD-GP_recording.mov Video]\]\[[https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes Code]\] \n
 
 - [https://arxiv.org/abs/2010.02482 Optimal High-order Tensor SVD via Tensor-Train Orthogonal Iteration] \n
 Yuchen Zhou, Anru R. Zhang, *Lili Zheng*, Yazhen Wang \n
-/Submitted/ \[[https://github.com/Lili-Zheng-stat/TTOI Code]\]\n
+/Under revision for IEEE Transactions on Information Theory/ \[[https://github.com/Lili-Zheng-stat/TTOI Code]\]\n
 
 - [https://arxiv.org/abs/2003.07429 Context-dependent self-exciting point processes: models, methods, and risk bounds in high dimensions] \n
 *Lili Zheng*, Garvesh Raskutti, Rebecca Willett, Benjamin Mark \n 
-/Under revision for Journal of Machine Learning Research/ \[[pre/context-dependent-slides Slides]\]\[[https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models Code]\]\n
+/Journal of Machine Learning Research. 2021/ \[[pre/context-dependent-slides Slides]\]\[[https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models Code]\]\n
 - [https://projecteuclid.org/euclid.ejs/1576119708 Testing for high-dimensional network parameters in auto-regressive models] \n
 *Lili Zheng*, Garvesh Raskutti \n 
 /Electronic Journal of Statistics. 2019/ \[[https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models Code]\]\n
 == Service
+- Reviewer for Annals of Applied Statistics \n
 - Reviewer for Journal of Machine Learning Research \n
 - Reviewer for Journal of the Royal Statistical Society: Series B \n
 - Reviewer for IEEE Transactions on Information Theory \n 
@@ -42,5 +46,6 @@ Yuchen Zhou, Anru R. Zhang, *Lili Zheng*, Yazhen Wang \n
 - Poster presentation at NeurIPS 2020 \n
 - Poster presentation at Joint Statistical Meetings, 2020 \n
 - Poster presentation at Joint Statistical Meetings, 2019 \n
-== Teaching Experience
+== Mentoring and Teaching Experience
+- Research Mentor for Jiaming Liu (1st year PhD), Zach Rewolinski (junior undergrad), Quan Le (junior undergrad).
 - Teaching Assistant for Stat 301 (/Introduction to Statistical Methods/), 2016 Fall and 2017 Spring\n
