@@ -13,9 +13,15 @@ To estimate the graph (conditional independence relationship) or certain charact
 need to developed. I am actively working on this direction and happy to collaborate on related topics!
 
 Papers:
-- Learning Gaussian Graphical Models with Differing Pairwise Sample Sizes \n
-*Lili Zheng*, Genevera Allen \n
+- [https://arxiv.org/pdf/2210.11625 Graphical Model Inference with Erosely Measured Data] \n
+*Lili Zheng*, Genevera I. Allen \n
 /Submitted/
+- [https://arxiv.org/pdf/2209.08273 Low-Rank Covariance Completion for Graph Quilting with Applications to Functional Connectivity] \n
+Andersen Chang, *Lili Zheng*, Genevera I. Allen \n
+/Submitted/
+- [https://ieeexplore.ieee.org/abstract/document/9746583 Learning Gaussian Graphical Models with Differing Pairwise Sample Sizes] \n
+*Lili Zheng*, Genevera I. Allen \n
+/International Conference on Acoustics, Speech, and Signal Processing (ICASSP). 2022/
 
 == High-dimensional Networks Estimation in Time Series Models
 High-dimensional autoregressive models can capture how the past events/status associated with a huge collection of nodes influence their future events/status, where the influence patterns can reveal underlying network structures. For example, the past firing of neurons may trigger or inhibit the future firings of their neighbors; past posts of a twitter user may also influence the likelihood of his/her followers to send new tweets. The influence network among these nodes can then be encoded by the high-dimensional autoregressive parameter. *The estimation and testing problem for the underlying network structure* imposes both methodological and theoretical challenges.
