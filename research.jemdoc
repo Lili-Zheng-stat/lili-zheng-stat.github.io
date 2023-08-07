@@ -15,13 +15,29 @@ need to developed. I am actively working on this direction and happy to collabor
 Papers:
 - [https://arxiv.org/pdf/2210.11625 Graphical Model Inference with Erosely Measured Data] \n
 *Lili Zheng*, Genevera I. Allen \n
-/Submitted/
+/Under minor revision at Journal of the American Statistical Association, Theory and Methods/
 - [https://arxiv.org/pdf/2209.08273 Low-Rank Covariance Completion for Graph Quilting with Applications to Functional Connectivity] \n
 Andersen Chang, *Lili Zheng*, Genevera I. Allen \n
-/Submitted/
+/Under revision at Journal of the American Statistical Association, Applications and Case Studies/
 - [https://ieeexplore.ieee.org/abstract/document/9746583 Learning Gaussian Graphical Models with Differing Pairwise Sample Sizes] \n
 *Lili Zheng*, Genevera I. Allen \n
 /International Conference on Acoustics, Speech, and Signal Processing (ICASSP). 2022/
+
+- [https://arxiv.org/abs/2305.13491 Nonparanormal Graph Quilting with Applications to Calcium Imaging] \n
+Andersen Chang\*, *Lili Zheng*\*, Gautam Dasarthy, Genevera I. Allen \n
+/Under revision at STAT/
+
+== Interpretable Machine Learning
+With machine learning models being implemented everywhere in modern life, making them interpretable and trustworthy is a crucial task for researchers from different domains. As a statistician, I am passionate about contributing to the challenging problems in interpretable machine learning through statistical lens, e.g., statistical theory and inference methods.
+
+Papers:
+- [https://arxiv.org/abs/2305.13491 Interpretable Machine Learning for Discovery: Statistical Challenges & Opportunities] \n
+Genevera I. Allen, Luqin Gan, *Lili Zheng* \n
+/Under revision at Annual Review of Statistics and Its Application/
+
+- [https://arxiv.org/abs/2206.02088 Model-Agnostic Confidence Intervals for Feature Importance: A Fast and Powerful Approach Using Minipatch Ensembles] \n
+Luqin Gan\*, *Lili Zheng*\*, Genevera I. Allen \n
+/Submitted/
 
 == High-dimensional Networks Estimation in Time Series Models
 High-dimensional autoregressive models can capture how the past events/status associated with a huge collection of nodes influence their future events/status, where the influence patterns can reveal underlying network structures. For example, the past firing of neurons may trigger or inhibit the future firings of their neighbors; past posts of a twitter user may also influence the likelihood of his/her followers to send new tweets. The influence network among these nodes can then be encoded by the high-dimensional autoregressive parameter. *The estimation and testing problem for the underlying network structure* imposes both methodological and theoretical challenges.
@@ -41,21 +57,34 @@ Below is an example of the hypothesis testing results of our method on Chicago c
 [img{300}{400}{alt text} fig/hptest-chicago.png]
 
 
-== Theoretical Analysis for Stochastic Algorithms
-Stochastic algorithms largely improve the computational efficiency of modern machine learning problems with large data sets. However, much of the established application and theory of stochastic algorithms focus on the case when the loss function is a sum of losses evaluated at each data point, suited for independent samples. *When there exists strong correlations among samples (e.g., samples generated from Gaussian processes), can we still apply stochastic gradient descent with convergence guarantees?* We investigate this question in the context of learning hyperparameters in Gaussian processes (GPs) and discover a surprisingly positive finding, opening a new, previously unexplored data size regime for GPs.
-
-Papers:
-- [https://papers.nips.cc/paper/2020/file/1cb524b5a3f3f82be4a7d954063c07e2-Paper.pdf Stochastic Gradient Descent in Correlated Settings: A Study on Gaussian Processes] \n
-Hao Chen\*, *Lili Zheng*\*, Raed Al Kontar, Garvesh Raskutti (\*: equal contribution)\n
-/Accepted in part to Neural Information Processing Systems (NeurIPS). 2020/ \[[pre/SGD-GP_recording.mov Video]\]\[[https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes Code]\] \n
-
-
 == Tensor Data Analysis
 Tensor data has attracted wide interest in recent years since it contains valuable high-order information,
-while its high-dimensionality imposes numerous statistical and computational challenges. One of my research interest is to develop *efficient algirithms for solving tenesor problems with strong statistical guarantees*. 
+while its high-dimensionality imposes numerous statistical and computational challenges. One of my research interest is to develop *efficient and statistically accurate algirithms for solving real-world tenesor problems*.
 
 Papers:
+- [https://ieeexplore.ieee.org/abstract/document/9820079/ A Low-Rank Tensor Completion Approach for Imputing Functional Neuronal Data from Multiple Recordings] \n
+*Lili Zheng*; Zachary T. Rewolinski; Genevera I. Allen \n
+/IEEE Data Science and Learning Workshop (DSLW). 2022/ \n
+
 - [https://arxiv.org/abs/2010.02482 Optimal High-order Tensor SVD via Tensor-Train Orthogonal Iteration] \n
 Yuchen Zhou, Anru R. Zhang, *Lili Zheng*, Yazhen Wang \n
-/Under revision for IEEE Transactions on Information Theory/ \[[https://github.com/Lili-Zheng-stat/TTOI Code]\]\n
+/IEEE Transactions on Information Theory/ \[[https://github.com/Lili-Zheng-stat/TTOI Code]\]\n
+
+
+== Non-convex Optimization
+Non-convex optimization problems arise frequently from both modern machine learning algorithms (e.g., deep neural networks and Gaussian processes) and complex data structures (missing data). Although being challenging solely from an optimization perspective, these problems can often lend a helping hand from certain statistical modeling. I am interested in the intersection between statistics and optimization, especially when efficient non-convex algorithms can still exhibit strong statistical performance.
+
+Papers:
+- [https://arxiv.org/abs/2304.09305 High-dimensional Multi-class Classification with Presence-only Data] \n
+*Lili Zheng*, Garvesh Raskutti \n
+/Submitted/ \n
+
+- [https://www.jmlr.org/papers/volume23/20-1365/20-1365.pdf Gaussian Process Parameter
+Estimation Using Mini-batch Stochastic Gradient Descent: Convergence Guarantees and Empirical
+Benefits] \n
+Hao Chen\*, *Lili Zheng*\*, Raed Al Kontar, Garvesh Raskutti (\*: equal contribution)\n
+/Journal of Machine Learning Research, 2022; Accepted in part to Neural Information Processing Systems (NeurIPS). 2020/ \[[pre/SGD-GP_recording.mov Video]\]\[[https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes Code]\] \n
+
+
+
 
