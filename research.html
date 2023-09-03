@@ -32,21 +32,27 @@ need to developed. I am actively working on this direction and happy to collabor
 <ul>
 <li><p><a href="https://arxiv.org/pdf/2210.11625">Graphical Model Inference with Erosely Measured Data</a> <br />
 <b>Lili Zheng</b>, Genevera I. Allen <br />
-<i>Accepted to Journal of the American Statistical Association, Theory and Methods</i></p>
-</li>
-<li><p><a href="https://arxiv.org/pdf/2209.08273">Low-Rank Covariance Completion for Graph Quilting with Applications to Functional Connectivity</a> <br />
-Andersen Chang, <b>Lili Zheng</b>, Genevera I. Allen <br />
-<i>Under revision at Journal of the American Statistical Association, Applications and Case Studies</i></p>
-</li>
-<li><p><a href="https://ieeexplore.ieee.org/abstract/document/9746583">Learning Gaussian Graphical Models with Differing Pairwise Sample Sizes</a> <br />
-<b>Lili Zheng</b>, Genevera I. Allen <br />
-<i>International Conference on Acoustics, Speech, and Signal Processing (ICASSP). 2022</i></p>
+<i>Accepted to Journal of the American Statistical Association, Theory and Methods</i> <br />
+In this work, we are primarily concerned with graphical model inference from uneven and irregular measurements, which we term as &lsquo;&lsquo;erose measurements". This is motivated by neuroscience and genetic data applications where the missingness can be highly uneven with drastically different sample sizes. In these scenarios, uncertainty quantification can be extremely important since some parts of the graph can be estimated with much higher confidence than the others. We propose <b>GI-JOE</b> (Graph <b>Inference when Joint Observations are Erose) to perform edge-wise testing in this setting, where the uncertainty level of each edge depends on the sample size of the associated neighbors</b>. <i>Below is a illustrative example of how GI-JOE (tested graph on the right) improves graph selection by considering uneven uncertainties across the graph.</i> <br />
+<img src="fig/GIJOE.jpeg" width="900px" height="300px" alt="alt text" /></p>
 </li>
 </ul>
 <ul>
 <li><p><a href="https://arxiv.org/abs/2305.13491">Nonparanormal Graph Quilting with Applications to Calcium Imaging</a> <br />
 Andersen Chang*, <b>Lili Zheng</b>*, Gautam Dasarthy, Genevera I. Allen <br />
-<i>Under revision at STAT</i></p>
+<i>Accepted to STAT</i></p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://arxiv.org/pdf/2209.08273">Low-Rank Covariance Completion for Graph Quilting with Applications to Functional Connectivity</a> <br />
+Andersen Chang, <b>Lili Zheng</b>, Genevera I. Allen <br />
+<i>Under revision at Journal of the American Statistical Association, Applications and Case Studies</i></p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://ieeexplore.ieee.org/abstract/document/9746583">Learning Gaussian Graphical Models with Differing Pairwise Sample Sizes</a> <br />
+<b>Lili Zheng</b>, Genevera I. Allen <br />
+<i>International Conference on Acoustics, Speech, and Signal Processing (ICASSP). 2022</i></p>
 </li>
 </ul>
 <h2>Interpretable Machine Learning</h2>
@@ -84,7 +90,7 @@ Below is an example of the hypothesis testing results of our method on Chicago c
 <p><img src="fig/hptest-chicago.png" width="300px" height="400px" alt="alt text" /></p>
 <h2>Tensor Data Analysis</h2>
 <p>Tensor data has attracted wide interest in recent years since it contains valuable high-order information,
-while its high-dimensionality imposes numerous statistical and computational challenges. One of my research interest is to develop <b>efficient and statistically accurate algirithms for solving real-world tenesor problems</b>.</p>
+while its high-dimensionality imposes numerous statistical and computational challenges. One of my research interest is to develop <b>efficient and statistically accurate algorithms for solving real-world tensor problems</b>.</p>
 <p>Papers:</p>
 <ul>
 <li><p><a href="https://ieeexplore.ieee.org/abstract/document/9820079/">A Low-Rank Tensor Completion Approach for Imputing Functional Neuronal Data from Multiple Recordings</a> <br />
@@ -95,7 +101,7 @@ while its high-dimensionality imposes numerous statistical and computational cha
 <ul>
 <li><p><a href="https://arxiv.org/abs/2010.02482">Optimal High-order Tensor SVD via Tensor-Train Orthogonal Iteration</a> <br />
 Yuchen Zhou, Anru R. Zhang, <b>Lili Zheng</b>, Yazhen Wang <br />
-<i>IEEE Transactions on Information Theory</i> [<a href="https://github.com/Lili-Zheng-stat/TTOI">Code</a>]<br /></p>
+<i>IEEE Transactions on Information Theory. 2022</i> [<a href="https://github.com/Lili-Zheng-stat/TTOI">Code</a>]<br /></p>
 </li>
 </ul>
 <h2>Non-convex Optimization</h2>
@@ -111,13 +117,19 @@ Yuchen Zhou, Anru R. Zhang, <b>Lili Zheng</b>, Yazhen Wang <br />
 <li><p><a href="https://www.jmlr.org/papers/volume23/20-1365/20-1365.pdf">Gaussian Process Parameter
 Estimation Using Mini-batch Stochastic Gradient Descent: Convergence Guarantees and Empirical
 Benefits</a> <br />
-Hao Chen*, <b>Lili Zheng</b>*, Raed Al Kontar, Garvesh Raskutti (*: equal contribution)<br />
-<i>Journal of Machine Learning Research, 2022; Accepted in part to Neural Information Processing Systems (NeurIPS). 2020</i> [<a href="pre/SGD-GP_recording.mov">Video</a>][<a href="https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes">Code</a>] <br /></p>
+Hao Chen*, <b>Lili Zheng</b>*, Raed Al Kontar, Garvesh Raskutti <br />
+<i>Journal of Machine Learning Research, 2022</i> <br /></p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://proceedings.neurips.cc/paper/2020/file/1cb524b5a3f3f82be4a7d954063c07e2-Paper.pdf">Stochastic Gradient Descent in Correlated Settings: A Study on Gaussian Processes</a> <br />
+Hao Chen*, <b>Lili Zheng</b>*, Raed Al Kontar, Garvesh Raskutti <br />
+<i>Neural Information Processing Systems (NeurIPS). 2020</i> [<a href="pre/SGD-GP_recording.mov">Video</a>][<a href="https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes">Code</a>] <br /></p>
 </li>
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-08-16 23:28:13 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2023-09-03 16:04:53 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
