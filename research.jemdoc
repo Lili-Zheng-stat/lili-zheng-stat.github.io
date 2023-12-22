@@ -67,6 +67,10 @@ Tensor data has attracted wide interest in recent years since it contains valuab
 while its high-dimensionality imposes numerous statistical and computational challenges. One of my research interest is to develop *efficient and statistically accurate algorithms for solving real-world tensor problems*.
 
 Papers:
+- [JisstPCA.pdf Joint Semi-Symmetric Tensor PCA for Integrating Multi-modal Populations of Networks]\n
+Jiaming Liu\*, *Lili Zheng*\*, Zhengwu Zhang, Genevera I. Allen \n
+/Submitted/ \n
+
 - [https://ieeexplore.ieee.org/abstract/document/9820079/ A Low-Rank Tensor Completion Approach for Imputing Functional Neuronal Data from Multiple Recordings] \n
 *Lili Zheng*; Zachary T. Rewolinski; Genevera I. Allen \n
 /IEEE Data Science and Learning Workshop (DSLW). 2022/ \n
