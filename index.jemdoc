@@ -30,17 +30,12 @@ E-mail: lz67 \[AT\] rice \[DOT\] edu
 Jiaming Liu\*, *Lili Zheng*\*, Zhengwu Zhang, Genevera I. Allen \n
 /Submitted/
 
-- [https://arxiv.org/abs/2308.01475 Interpretable Machine Learning for Discovery: Statistical Challenges & Opportunities] \n
-Genevera I. Allen, Luqin Gan, *Lili Zheng* \n
-/Under revision at Annul Review of Statistics and Its Application/
-
 - [https://arxiv.org/abs/2304.09305 High-dimensional Multi-class Classification with Presence-only Data] \n
 *Lili Zheng*, Garvesh Raskutti \n
 /Under revision at Electronic Journal of Statistics/
  
 - [https://arxiv.org/abs/2206.02088 Model-Agnostic Confidence Intervals for Feature Importance: A Fast and Powerful Approach Using Minipatch Ensembles] \n
 Luqin Gan\*, *Lili Zheng*\*, Genevera I. Allen \n
-/Submitted/
 
 - [https://arxiv.org/pdf/2209.08273 Low-Rank Covariance Completion for Graph Quilting with Applications to Functional Connectivity] \n
 Andersen Chang, *Lili Zheng*, Genevera I. Allen \n
@@ -48,6 +43,10 @@ Andersen Chang, *Lili Zheng*, Genevera I. Allen \n
 
 == Publications
 (\*: equal contribution)
+- [https://arxiv.org/abs/2308.01475 Interpretable Machine Learning for Discovery: Statistical Challenges & Opportunities] \n
+Genevera I. Allen, Luqin Gan, *Lili Zheng* \n
+/Annual Review of Statistics and Its Application. 2023/
+
 - [https://arxiv.org/abs/2305.13491 Nonparanormal Graph Quilting with Applications to
 Calcium Imaging] \n
 Andersen Chang\*, *Lili Zheng*\*, Gautam Dasarathy, Genevera I. Allen \n
@@ -55,7 +54,7 @@ Andersen Chang\*, *Lili Zheng*\*, Gautam Dasarathy, Genevera I. Allen \n
 
 - [https://arxiv.org/pdf/2210.11625 Graphical Model Inference with Erosely Measured Data] \n
 *Lili Zheng*, Genevera I. Allen \n
-/Accepted to Journal of the American Statistical Association, Theory and Methods/ \[[https://github.com/Lili-Zheng-stat/GI-JOE Code]\]
+/Journal of the American Statistical Association, Theory and Methods. 2023/ \[[https://github.com/Lili-Zheng-stat/GI-JOE Code]\]
 
 - [https://www.jmlr.org/papers/volume23/20-1365/20-1365.pdf Gaussian Process Parameter Estimation Using Mini-batch Stochastic Gradient Descent: Convergence Guarantees and Empirical Benefits] \n
 Hao Chen\*, *Lili Zheng*\*, Raed Al Kontar, Garvesh Raskutti (\*: equal contribution)\n
