@@ -6,7 +6,7 @@
 I am currently an Assistant Professor in the [https://stat.illinois.edu Department of Statistics] at the University of Illinois Urbana-Champaign. \n
 Before joining the University of Illinois, I was a postdoctoral researcher at Rice University, advised by Prof. [https://profiles.rice.edu/faculty/genevera-allen Genevera Allen]. I completed my Ph.D. in the [https://stat.wisc.edu Department of Statistics at the University of Wisconsin-Madison], under the supervision of Prof. [http://pages.cs.wisc.edu/~raskutti/ Garvesh Raskutti]. I received my bachelor's degree at the [https://en.ustc.edu.cn University of Science and Technology of China (USTC)] in 2016. \n
 \n
-*Research interest*: I am broadly interested in statistical machine learning, where I develop reliable methods and theory for large-scale and complex statistical problems. In particular, I have been working on the following topics: graphical models, interpretable machine learning, selective inference, missing data, time series.\n
+*Research interest*: I am broadly interested in statistical machine learning, where I develop reliable methods and theory for large-scale and complex statistical problems. In particular, I have been working on the following topics: interpretable machine learning, distribution-free inference, multiple testing, ensemble methods, graphical models, missing data, data integration, spectral methods.\n
 
 \n
 E-mail: llzheng \[AT\] illinois \[DOT\] edu, Office: 157 Computing Applications Building
@@ -18,24 +18,26 @@ E-mail: llzheng \[AT\] illinois \[DOT\] edu, Office: 157 Computing Applications 
 
 == Preprints 
 (\*: equal contribution)
+- [https://arxiv.org/abs/2502.06661 iLOCO: Distribution-free Inference for Feature Interactions] \n
+Camille O. Little, *Lili Zheng*, Geneveral I. Allen \n 
 - [https://arxiv.org/pdf/2406.13833 Cluster Quilting: Spectral Clustering for Patchwork Learning] \n
 *Lili Zheng*\*, Andersen Chang\*, Genevera I. Allen \n
-/Submitted/
+/Under revision/
 
 - [https://arxiv.org/pdf/2312.14416 Joint Semi-Symmetric Tensor PCA for Integrating Multi-modal Populations of Networks] \n
 Jiaming Liu\*, *Lili Zheng*\*, Zhengwu Zhang, Genevera I. Allen \n
-/Submitted/
+/Under revision/
 
 - [https://arxiv.org/abs/2304.09305 High-dimensional Multi-class Classification with Presence-only Data] \n
 *Lili Zheng*, Garvesh Raskutti \n
-/Under revision at Electronic Journal of Statistics/
+
  
 - [https://arxiv.org/abs/2206.02088 Model-Agnostic Confidence Intervals for Feature Importance: A Fast and Powerful Approach Using Minipatch Ensembles] \n
 Luqin Gan\*, *Lili Zheng*\*, Genevera I. Allen \n
 
 - [https://arxiv.org/pdf/2209.08273 Low-Rank Covariance Completion for Graph Quilting with Applications to Functional Connectivity] \n
 Andersen Chang, *Lili Zheng*, Genevera I. Allen \n
-/Under revision at Journal of the American Statistical Association, Applications and Case Studies/
+
 
 == Selected Publications
 (\*: equal contribution)
