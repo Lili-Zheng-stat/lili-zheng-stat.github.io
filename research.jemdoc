@@ -1,5 +1,7 @@
-# jemdoc: menu{menu}{index.html}
+# jemdoc: menu{MENU}{research.html}, nodate
 = Research by Topic
+
+See [publications.html Publications] for the complete list of papers and their current status.
 
 == Graphical Models: Methods and Theory with Missing Data
 High-dimensional graphical models have been a powerful tool for learning connections or interaction patterns
@@ -19,8 +21,8 @@ In this work, we are primarily concerned with graphical model inference from une
 
 
 - [https://arxiv.org/abs/2305.13491 Nonparanormal Graph Quilting with Applications to Calcium Imaging] \n
-Andersen Chang\*, *Lili Zheng*\*, Gautam Dasarthy, Genevera I. Allen \n
-/STAT/
+Andersen Chang\*, *Lili Zheng*\*, Gautam Dasarathy, Genevera I. Allen \n
+/STAT, 2023/
 
 - [https://arxiv.org/pdf/2209.08273 Low-Rank Covariance Completion for Graph Quilting with Applications to Functional Connectivity] \n
 Andersen Chang, *Lili Zheng*, Genevera I. Allen \n
@@ -30,25 +32,45 @@ Andersen Chang, *Lili Zheng*, Genevera I. Allen \n
 *Lili Zheng*, Genevera I. Allen \n
 /International Conference on Acoustics, Speech, and Signal Processing (ICASSP). 2022/
 
+== Spectral Methods and Data Integration
+
+Papers:
+- [https://arxiv.org/abs/2406.13833 Cluster Quilting: Spectral Clustering for Patchwork Learning] \n
+*Lili Zheng*\*, Andersen Chang\*, Genevera I. Allen \n
+/Journal of the American Statistical Association, Theory and Methods, 2026/
+
 == Interpretable Machine Learning
 With machine learning models being implemented everywhere in modern life, making them interpretable and trustworthy is a crucial task for researchers from different domains. As a statistician, I am passionate about contributing to the challenging problems in interpretable machine learning through statistical lens, e.g., statistical theory and inference methods.
 
 Papers:
-- [https://arxiv.org/abs/2305.13491 Interpretable Machine Learning for Discovery: Statistical Challenges & Opportunities] \n
-Genevera I. Allen, Luqin Gan, *Lili Zheng* \n
-/Annual Review of Statistics and Its Application/
+- [https://arxiv.org/abs/2609.36396 LOCO-AdaMP: Built-in LOCO Inference for Adaptive Minipatch Ensembles with Enhanced Prediction] \n
+Yinan Cheng†, *Lili Zheng* \n
+/Under review/
 
-- [https://arxiv.org/abs/2206.02088 Model-Agnostic Confidence Intervals for Feature Importance: A Fast and Powerful Approach Using Minipatch Ensembles] \n
+- [https://arxiv.org/abs/2609.24126 Model-Agnostic Feature Selection via LOCO-Guided Adaptive Minipatch Sampling] \n
+Xuhui Liu†, *Lili Zheng* \n
+/Under review/
+
+- [https://arxiv.org/abs/2502.06661 iLOCO: Distribution-Free Inference for Feature Interactions] \n
+Camille O. Little, *Lili Zheng*, Genevera I. Allen \n
+/Accepted to Transactions on Machine Learning Research (TMLR)/
+
+- [https://arxiv.org/abs/2308.01475 Interpretable Machine Learning for Discovery: Statistical Challenges & Opportunities] \n
+Genevera I. Allen, Luqin Gan, *Lili Zheng* \n
+/Annual Review of Statistics and Its Application, 2024/
+
+- [https://arxiv.org/abs/2206.02088 LOCO Feature Importance Inference without Data Splitting via Minipatch Ensembles] \n
 Luqin Gan\*, *Lili Zheng*\*, Genevera I. Allen \n
+/Under revision/
 
 
 == High-dimensional Networks Estimation in Time Series Models
 High-dimensional autoregressive models can capture how the past events/status associated with a huge collection of nodes influence their future events/status, where the influence patterns can reveal underlying network structures. For example, the past firing of neurons may trigger or inhibit the future firings of their neighbors; past posts of a twitter user may also influence the likelihood of his/her followers to send new tweets. The influence network among these nodes can then be encoded by the high-dimensional autoregressive parameter. *The estimation and testing problem for the underlying network structure* imposes both methodological and theoretical challenges.
 
 Papers:
-- [https://arxiv.org/abs/2003.07429 Context-dependent self-exciting point processes: models, methods, and risk bounds in high dimensions] \n
+- [https://arxiv.org/abs/2003.07429 Context-dependent Networks in Multivariate Time Series: Models, Methods, and Risk Bounds in High Dimensions] \n
 *Lili Zheng*, Garvesh Raskutti, Rebecca Willett, Benjamin Mark \n
-/Journal of Machine Learning Research. 2021/ \[[pre/context-dependent-slides Slides]\]\[[https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models Code]\] \n
+/Journal of Machine Learning Research. 2021/ \[[pre/Context-dependent-slides.pdf Slides]\]\[[https://github.com/Lili-Zheng-stat/Network-inference-for-autoregressive-models Code]\] \n
 In this work, we propose two autoregressive models with corresponding methods and theory for learning 
 context-dependent networks that reflect how features associated with an event (such as the content of a social media post) modulate the strength of influences among nodes. The multinomial approach we propose is suited to categorical marks and while the logistic-normal approach is suited to marks with mixed membership in different categories; a mixture approach is also proposed to combine the merits of both methods. The following figure provides a comparison among the three approaches. \n
 [img{450}{560}{alt text} fig/context-dependent-synthetic.png]
@@ -65,7 +87,7 @@ Tensor data has attracted wide interest in recent years since it contains valuab
 while its high-dimensionality imposes numerous statistical and computational challenges. One of my research interest is to develop *efficient and statistically accurate algorithms for solving real-world tensor problems*.
 
 Papers:
-- [JisstPCA.pdf Joint Semi-Symmetric Tensor PCA for Integrating Multi-modal Populations of Networks]\n
+- [https://arxiv.org/abs/2312.14416 Joint Semi-Symmetric Tensor PCA for Integrating Multi-modal Populations of Networks]\n
 Jiaming Liu\*, *Lili Zheng*\*, Zhengwu Zhang, Genevera I. Allen \n
 /Under revision/ \n
 

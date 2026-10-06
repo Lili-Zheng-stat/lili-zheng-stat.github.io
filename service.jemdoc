@@ -1,11 +1,13 @@
-# jemdoc: menu{menu}{index.html}
-= Professional Experiences
+# jemdoc: menu{MENU}{service.html}, nodate
+= Teaching and Mentoring
 
 == Teaching
 
+- Stat 425 (Statistical Modeling I), Instructor, Spring 2026 \n
+
 - Stat 425 (Statistical Modeling I), Instructor, Spring 2025 \n
 - The Summer Institute for Statistics in Big Data, Teaching Assistant, Summer 2023 \n
-- Stat 301 (Introduction to Statistical Methods), Teaching Assistant, Fall 2016/ Spring 201 \n
+- Stat 301 (Introduction to Statistical Methods), Teaching Assistant, Fall 2016/ Spring 2017 \n
 
 == Mentoring 
 
@@ -15,20 +17,3 @@
 - Jiaming Liu, PhD candidate, Statistics, Rice University \n
 - Quan Le, former undergraduate student, Computer Science and Mathematics, Rice University, 2023; now a PhD student at Yale \n 
 -  Zach Rewolinski, former undergraduate student, Statistics and Computer Science, Rice University, 2023; now a PhD student at UC Berkeley \n
-
-== Professional Services
-
-- Organizer for an invited session in Joint Statistical Meetings, 2025 \n
-- Organizer for a topic-contributed session in Joint Statistical Meetings, 2022 \n
-- Session chair for ICASSP, 2022 \n
-- Referee for /Journal of the Royal Statistical Society: Series B/, /Journal of the American Statistical Association/,
-/Biometrika/, /Journal of Machine Learning Research/, /Annals of Applied Statistics/, /IEEE Transactions on
-Information Theory/, /Computational Statistics and Data Analysis/, /International Conference on Artificial
-Intelligence and Statistics (AISTATS)/, /International Conference on Machine Learning (ICML)/. \n
-
-== Recent Talks
-
-- Invited talk at 2024 IMS International Conference on Statistics and Data Science (ICSDS), 12/16/2024 \n 
-- Invited talk at CFE-CMStatistics, 12/15/2024 \n
-
-
