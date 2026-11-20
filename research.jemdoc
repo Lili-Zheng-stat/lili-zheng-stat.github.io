@@ -3,6 +3,13 @@
 
 See [publications.html Publications] for the complete list of papers and their current status.
 
+== Flow Matching
+We give finite-step convergence guarantees for flow matching from non-Gaussian source distributions, including heavy-tailed and multimodal sources.
+
+- [papers/flow-matching.pdf Flow Matching from Non-Gaussian Sources: A Theory of Efficient Sampling] \n
+Yuchen Zhou\*, *Lili Zheng*\*, Yuxin Chen, Gen Li \n
+/Preprint/
+
 == Graphical Models: Methods and Theory with Missing Data
 High-dimensional graphical models have been a powerful tool for learning connections or interaction patterns
 among a large number of variables, with wide applications such as learning stock networks, social networks, etc. While most prior
